@@ -9,7 +9,7 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 
 public class PinyinUtils {
     /**
-     * 根据传入的字符串(包含汉字),得到拼音
+     * 根据传入的字符串(包含汉字),得到拼音（大写）
      * 黑马 -> HEIMA
      * 黑  马*& -> HEIMA
      * 黑马f5 -> HEIMA
