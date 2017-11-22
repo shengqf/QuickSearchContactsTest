@@ -1,0 +1,16 @@
+
+#Project
+.gradle/
+.idea/
+build/
+gradle/
+gradlew
+*.bat
+*.iml
+
+#Module
+*/build/
+*/*.iml
+
+# Java class files
+*.class
