@@ -33,7 +33,7 @@ public class PinyinUtils {
             if(Character.isWhitespace(c)){
                 continue;
             }
-            if(c >= -127 && c < 128){
+            if(c < 128){
                 // 肯定不是汉字
                 sb.append(c);
             }else {

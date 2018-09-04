@@ -18,7 +18,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.6dp"
-        android:background="#666666"/>
+        android:background="#e8e8e8"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -32,6 +32,9 @@
             android:id="@+id/bar"
             android:layout_width="20dp"
             android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginEnd="10dp"
             android:layout_alignParentEnd="true"
             android:background="#00000000"/>
 
@@ -45,7 +48,8 @@
             android:text="A"
             android:textColor="#ffffff"
             android:textSize="60sp"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            android:alpha="0.6"/>
     </RelativeLayout>
 
 </LinearLayout>

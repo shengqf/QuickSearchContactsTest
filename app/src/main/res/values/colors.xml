@@ -6,4 +6,8 @@
 
     <color name="transparent">#00000000</color>
     <color name="light_gray">#e8e8e8</color>
+
+    <color name="main">#0574f4</color>
+    <color name="white">#ffffff</color>
+    <color name="text_tips">#999999</color>
 </resources>
